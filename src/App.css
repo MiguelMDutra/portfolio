@@ -1,3 +1,9 @@
 body {
   background-color: #2b2a28;
 }
+
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #72716f; /* Opcional: define uma cor personalizada para a linha */
+}
