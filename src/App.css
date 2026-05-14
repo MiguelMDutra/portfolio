@@ -7,3 +7,14 @@ hr {
   border: 0;
   border-top: 1px solid #72716f; /* Opcional: define uma cor personalizada para a linha */
 }
+
+.main--content {
+  margin: 3em 2em;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.h3--projects {
+  color: #fff;
+}

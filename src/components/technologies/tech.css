@@ -1,0 +1,53 @@
+.div--h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.h2--title {
+  color: white;
+  font-size: 1.5em;
+}
+
+.all--techs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0em 10em;
+}
+
+.techs {
+  padding: 2em 1em;
+  color: white;
+
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 10em;
+  height: 4em;
+
+  border-radius: 5em;
+  border: 2px solid #72716f;
+
+  font-size: 1em;
+  font-weight: 700;
+
+  margin-bottom: 0.4em;
+}
+
+.tech--0,
+.tech--1 {
+  background-color: #006f9f;
+}
+
+.tech--2,
+.tech--3 {
+  background-color: #500046;
+}
+
+.tech--4,
+.tech--5 {
+  background-color: #9f0082;
+}
