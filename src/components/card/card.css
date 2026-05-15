@@ -1,0 +1,52 @@
+.container--card {
+  margin: 0 0 24px 0;
+  margin: 0 auto 24px auto;
+  max-width: 700px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 18px;
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: 12px;
+}
+
+.icon--text {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.all--icons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--purple);
+  font-size: 18px;
+}
+
+.card--text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.card p {
+  margin: 0;
+}
+
+.card--link {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 16px;
+}

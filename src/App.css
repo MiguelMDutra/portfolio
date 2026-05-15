@@ -1,5 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  --bg: #0d0d0f;
+  --surface: #13131a;
+  --card: #1e1e2e;
+  --accent: #00e5c0;
+  --purple: #7f6af8;
+  --text: #e2e2e8;
+  --muted: #8888a0;
+  --border: #2a2a38;
+}
+
 body {
-  background-color: #2b2a28;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Geist", sans-serif;
+
+  position: relative;
+  z-index: 2;
+}
+
+h1,
+h2,
+h3,
+.logo,
+.card--name {
+  font-family: "JetBrains Mono", monospace;
 }
 
 hr {
@@ -16,5 +42,19 @@ hr {
 }
 
 .h3--projects {
-  color: #fff;
+  margin-left: 7em;
+}
+
+.freddy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active {
+  display: flex;
 }

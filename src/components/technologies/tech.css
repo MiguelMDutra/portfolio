@@ -39,15 +39,21 @@
 
 .tech--0,
 .tech--1 {
-  background-color: #006f9f;
+  color: var(--accent);
+  background: #00e5c010;
+  border: 1px solid #00e5c040;
 }
 
 .tech--2,
 .tech--3 {
-  background-color: #500046;
+  color: var(--purple);
+  background: #7f6af810;
+  border: 1px solid #7f6af840;
 }
 
 .tech--4,
 .tech--5 {
-  background-color: #9f0082;
+  color: var(--muted);
+  background: var(--card);
+  border: 1px solid var(--border);
 }

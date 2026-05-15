@@ -9,7 +9,10 @@
 /*lado esquerdo*/
 
 .header--name-text {
-  color: #fff;
+  font-family: "JetBrains Mono";
+  font-size: 20px;
+  font-weight: 500;
+  color: #e2e2e8;
 }
 
 /*meio*/
@@ -17,6 +20,9 @@
 .header--links {
   display: flex;
   gap: 2em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header--link {
@@ -27,17 +33,23 @@
 /*lado direito*/
 
 .header--contact-link {
-  color: #fff;
+  color: var(--text);
   cursor: pointer;
-  padding: 0.5em 1em;
-  background-color: #7000bb;
-  box-shadow: 3px 3px 3px 0.2em #1a0022;
+  padding: 8px 18px;
+  background: var(--purple);
+  border: none;
+  border-radius: 100px;
+  font-family: "Geist", sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
 
-  border: 1px solid #fff;
-  border-radius: 3em;
+.header--contact-link:hover {
+  opacity: 0.85;
 }
 
 .header--contact-link.active {
-  padding: 0.8em 1.3em;
-  box-shadow: 3px 3px 3px 0.2em #ffd000;
+  background: var(--accent);
+  color: #0d0d0f;
 }
