@@ -10,15 +10,14 @@ type AboutMeProps = {
 export function AboutMe({ contactMeHighlighted }: AboutMeProps) {
   return (
     <section className="about-me--section">
-      <div className="about-me--free">
-        <button onClick={contactMeHighlighted} className="about-me--button">
-          &#9679; Disponível para projetos!
-        </button>
-      </div>
+      <button onClick={contactMeHighlighted} className="about-me--button">
+        <span className="about-me--icon">&#9679;</span> Disponível para
+        projetos!
+      </button>
       <div className="about-me--text">
         <h1 className="about-me--h1">
           Olá, eu sou o <br />
-          Miguel!
+          <span className="about-me--accent">Miguel!</span>
         </h1>
         <h2 className="about-me--h2">Desenvolvedor(?) Full stack</h2>
         <p className="about-me--p">
@@ -29,8 +28,14 @@ export function AboutMe({ contactMeHighlighted }: AboutMeProps) {
         </p>
       </div>
 
-      <div className="about-me--links">
-        <a>Ver Projetos</a>
+      <div className="about-me--links--container">
+        <a
+          className="about-me--links"
+          href="https://github.com/MiguelMDutra"
+          target="_blank"
+        >
+          Github
+        </a>
         <a></a>
       </div>
     </section>
