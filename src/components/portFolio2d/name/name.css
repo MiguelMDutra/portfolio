@@ -1,0 +1,10 @@
+.header--name-text {
+  font-family: "JetBrains Mono";
+  font-size: 20px;
+  font-weight: 500;
+  color: #e2e2e8;
+}
+
+.header--accent {
+  color: var(--accent);
+}

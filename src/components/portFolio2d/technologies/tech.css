@@ -1,0 +1,145 @@
+.div--h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.h2--title {
+  color: white;
+  font-size: 1.5em;
+}
+
+.all--techs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0em 0em;
+}
+
+.techs {
+  padding: 2em 1em;
+  color: white;
+
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 8.8em;
+  height: 4em;
+
+  border-radius: 5em;
+  border: 2px solid #72716f;
+
+  font-size: 1em;
+  font-weight: 700;
+
+  margin-bottom: 0.4em;
+}
+
+.tech--0 {
+  color: #61dafb;
+  background: #61dafb11;
+  border: 1px solid #61dafb44;
+}
+
+.tech--0:hover {
+  color: #8be9fd;
+  background: #61dafb22;
+  border-color: #61dafb88;
+}
+
+.tech--1 {
+  color: #3178c6;
+  background: #3178c611;
+  border: 1px solid #3178c644;
+}
+
+.tech--1:hover {
+  color: #4f95e0;
+  background: #3178c622;
+  border-color: #3178c688;
+}
+
+.tech--2 {
+  color: #f7df1e;
+  background: #f7df1e11;
+  border: 1px solid #f7df1e44;
+}
+
+.tech--2:hover {
+  color: #fff27a;
+  background: #f7df1e22;
+  border-color: #f7df1e88;
+}
+
+.tech--3 {
+  color: #e34c26;
+  background: #e34c2611;
+  border: 1px solid #e34c2644;
+}
+
+.tech--3:hover {
+  color: #ff7b57;
+  background: #e34c2622;
+  border-color: #e34c2688;
+}
+
+.tech--4 {
+  color: #6ea6ff;
+  background: #6ea6ff11;
+  border: 1px solid #6ea6ff44;
+}
+
+.tech--4:hover {
+  color: #9cc4ff;
+  background: #6ea6ff22;
+  border-color: #6ea6ff88;
+}
+
+.tech--5 {
+  color: #68a063;
+  background: #68a06311;
+  border: 1px solid #68a06344;
+}
+
+.tech--5:hover {
+  color: #89c783;
+  background: #68a06322;
+  border-color: #68a06388;
+}
+
+.tech--6 {
+  color: #3c873a;
+  background: #3c873a11;
+  border: 1px solid #3c873a44;
+}
+
+.tech--6:hover {
+  color: #59b857;
+  background: #3c873a22;
+  border-color: #3c873a88;
+}
+
+.tech--7 {
+  color: #c8c8c8;
+  background: #c8c8c811;
+  border: 1px solid #c8c8c844;
+}
+
+.tech--7:hover {
+  color: #ffffff;
+  background: #c8c8c822;
+  border-color: #c8c8c888;
+}
+
+.tech--0:hover,
+.tech--1:hover,
+.tech--2:hover,
+.tech--3:hover,
+.tech--4:hover,
+.tech--5:hover,
+.tech--6:hover,
+.tech--7:hover {
+  transform: translateY(-1px);
+}
