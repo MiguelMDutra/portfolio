@@ -32,8 +32,8 @@ export function TrexModel({ trexAnimation, refTrex }: AnimationProps) {
   }, [scene, trexTexture]);
 
   return (
-    <group ref={refTrex}>
-      <primitive object={scene} scale={0.08} position={[0, 8, 21]} />;
+    <group ref={refTrex} position={[0, 2, 10]}>
+      <primitive object={scene} scale={1} />;
     </group>
   );
 }
